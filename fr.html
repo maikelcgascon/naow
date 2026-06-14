@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Naow — Rappels mindful, minuteur de méditation et journal spirituel</title>
+<meta name="description" content="Naow est une application gratuite de pleine conscience pour Android. Rappels doux, minuteur de méditation, exercices de respiration, journal de gratitude et citations spirituelles quotidiennes. Revenez au présent tout au long de la journée.">
+<meta name="keywords" content="application pleine conscience, minuteur méditation, rappels mindful, exercices respiration, journal gratitude, citations spirituelles, méditation android, présence">
+<meta name="author" content="Still Studio">
+<link rel="canonical" href="https://stillstudio.github.io/naow/fr.html">
+
+<link rel="alternate" hreflang="en" href="https://stillstudio.github.io/naow/index.html">
+<link rel="alternate" hreflang="es" href="https://stillstudio.github.io/naow/es.html">
+<link rel="alternate" hreflang="fr" href="https://stillstudio.github.io/naow/fr.html">
+<link rel="alternate" hreflang="de" href="https://stillstudio.github.io/naow/de.html">
+
+<meta property="og:title" content="Naow — Rappels mindful et méditation">
+<meta property="og:description" content="Un compagnon doux pour votre pratique quotidienne de pleine conscience. Rappels, minuteur, respiration, gratitude et citations spirituelles.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="fr_FR">
+
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  :root { --beige: #F2EDE4; --beige-card: #EEF2EE; --green: #5A8A6E; --green-light: #7FA98C; --text: #3D3D3D; --text-soft: #8a8a8a; }
+  body { font-family: 'Segoe UI', 'Helvetica Neue', sans-serif; background: var(--beige); color: var(--text); line-height: 1.6; }
+  .container { max-width: 900px; margin: 0 auto; padding: 0 24px; }
+  .lang-bar { text-align: right; padding: 14px 24px 0; font-size: 13px; }
+  .lang-bar a { color: var(--text-soft); text-decoration: none; margin-left: 10px; }
+  .lang-bar a.active { color: var(--green); font-weight: 600; }
+  header { text-align: center; padding: 50px 24px 60px; }
+  .logo { font-size: 56px; font-weight: 700; color: var(--green); letter-spacing: -1px; }
+  .tagline { font-size: 17px; color: var(--text-soft); letter-spacing: 3px; text-transform: lowercase; margin-top: 8px; }
+  .flower { width: 160px; height: 160px; margin: 40px auto 0; opacity: 0.9; }
+  .hero-text { font-size: 20px; font-style: italic; color: var(--green-light); max-width: 560px; margin: 36px auto 0; }
+  .download { display: inline-block; background: var(--green); color: #fff; text-decoration: none; font-size: 17px; font-weight: 600; padding: 16px 40px; border-radius: 16px; margin-top: 40px; transition: background 0.2s; }
+  .download:hover { background: #4a7a5e; }
+  .features { padding: 60px 0; }
+  .section-title { text-align: center; font-size: 13px; letter-spacing: 2px; text-transform: uppercase; color: var(--text-soft); margin-bottom: 36px; }
+  .feature-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; }
+  .feature { background: var(--beige-card); border-radius: 18px; padding: 28px 24px; }
+  .feature h3 { color: var(--green); font-size: 18px; margin-bottom: 8px; font-weight: 600; }
+  .feature p { color: var(--text-soft); font-size: 15px; }
+  .quote-band { text-align: center; padding: 70px 24px; }
+  .quote-band p { font-size: 22px; font-style: italic; color: var(--green-light); max-width: 600px; margin: 0 auto; line-height: 1.5; }
+  footer { text-align: center; padding: 50px 24px 60px; color: var(--text-soft); font-size: 13px; }
+  footer a { color: var(--green); text-decoration: none; }
+  @media (max-width: 600px) { .logo { font-size: 44px; } .hero-text { font-size: 18px; } .quote-band p { font-size: 19px; } }
+</style>
+</head>
+<body>
+
+<div class="lang-bar">
+  <a href="index.html">EN</a>
+  <a href="es.html">ES</a>
+  <a href="fr.html" class="active">FR</a>
+  <a href="de.html">DE</a>
+</div>
+
+<header>
+  <div class="container">
+    <div class="logo">Naow</div>
+    <div class="tagline">revenez au présent</div>
+    <svg class="flower" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#7FA98C" stroke-width="0.8">
+      <g>
+        <circle cx="100" cy="100" r="26"/><circle cx="100" cy="74" r="26"/><circle cx="100" cy="126" r="26"/>
+        <circle cx="122.5" cy="87" r="26"/><circle cx="122.5" cy="113" r="26"/><circle cx="77.5" cy="87" r="26"/>
+        <circle cx="77.5" cy="113" r="26"/><circle cx="100" cy="100" r="78"/>
+      </g>
+    </svg>
+    <p class="hero-text">"De petites pauses, de grands changements. Laissez Naow vous rappeler de revenir à vous tout au long de la journée."</p>
+    <br>
+    <a class="download" href="#" id="playLink">Télécharger sur Google Play</a>
+  </div>
+</header>
+
+<section class="features">
+  <div class="container">
+    <div class="section-title">Ce que Naow propose</div>
+    <div class="feature-grid">
+      <div class="feature"><h3>Rappels mindful</h3><p>Des rappels doux à l'intervalle de votre choix pour faire une pause, respirer et revenir au moment présent.</p></div>
+      <div class="feature"><h3>Minuteur de méditation</h3><p>Méditez en silence avec un minuteur ou une session ouverte sans durée fixe.</p></div>
+      <div class="feature"><h3>Exercices de respiration</h3><p>Respiration guidée avec repères visuels et sonores — 4-7-8, Box Breathing, Cohérence cardiaque.</p></div>
+      <div class="feature"><h3>Citation spirituelle quotidienne</h3><p>Une nouvelle citation chaque jour de maîtres de toutes les traditions — Rumi, Bouddha, Lao Tseu et bien d'autres.</p></div>
+      <div class="feature"><h3>Gratitude et journal</h3><p>Écrivez trois choses pour lesquelles vous êtes reconnaissant, notez vos réflexions et relisez-les quand vous voulez.</p></div>
+      <div class="feature"><h3>Programme de pratique</h3><p>Créez un rythme quotidien avec des heures précises pour la prière, la méditation ou le yoga, avec des rappels doux.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="quote-band">
+  <p>"Le moment présent est le seul moment dont nous disposons, et c'est la porte vers tous les moments."</p>
+</section>
+
+<footer>
+  <div class="container">
+    Sans publicité · Sans compte · Vos données restent sur votre appareil<br>
+    Disponible en anglais, espagnol, français et allemand<br><br>
+    Conçu avec soin par Still Studio · <a href="#">Politique de confidentialité</a>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('playLink').href = "https://play.google.com/store/apps/details?id=com.stillstudio.naow";
+</script>
+
+</body>
+</html>
